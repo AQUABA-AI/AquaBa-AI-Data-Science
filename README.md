@@ -1,7 +1,3 @@
-Here’s a **README section** you can drop into your GitHub repo so teammates know exactly how to run both notebooks (`Sp9.ipynb` for spoilage alerts and `Sp10_Preprocessing.ipynb` for forecasting prep).  
-
----
-
 ## AquaBa-AI Data Science Team
 
 ### Project Overview
