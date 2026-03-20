@@ -1,6 +1,4 @@
 from fastapi import FastAPI
-from demand_forecast import predict_demand
-from spoilage_alerts import check_spoilage
 
 app = FastAPI()
 
@@ -10,8 +8,8 @@ def home():
 
 @app.get("/demand")
 def demand():
-    return predict_demand()
+    return {"message": "Demand forecast coming soon"}
 
 @app.get("/spoilage")
 def spoilage():
-    return check_spoilage()
+    return {"message": "Spoilage alerts coming soon"}
